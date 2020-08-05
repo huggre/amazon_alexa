@@ -1,0 +1,46 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "get iota balance",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "PersonalBalance",
+                    "slots": [],
+                    "samples": [
+                        "Get me my personal balance",
+                        "Give me my personal balance",
+                        "Get my personal balance",
+                        "What is my personal balance"
+                    ]
+                },
+                {
+                    "name": "HotelBalance",
+                    "slots": [],
+                    "samples": [
+                        "Get my hotel balance",
+                        "Get me the hotel balance",
+                        "Get the hotel balance",
+                        "What is the hotel balance"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
